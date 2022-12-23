@@ -1,0 +1,121 @@
+:root{
+    --fonte-principal: 'EB Garamond', Times;
+    --fonte-secundaria: 'Kalam', Times;
+    --preto: #000000;
+    --branco: #ffffff;
+    --cinza: #b9b9b9;
+    --azulzin: #3fa1a6;
+    --dourado: #e4c660;
+    --verdin: #60e48a;
+    --rosinha: #e460d1;
+    --escurin: #5752b6;
+    --paixao: #b6525b;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+
+}
+.cabeçalho{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: var(--preto);
+}
+.cabeçalho-texto{
+    padding: 1em;
+    font-size: 20px;
+    
+}
+.cabeçalho-opções{
+   padding: 1.9em 1em;
+
+}
+.cabeçalho-opções-item{
+    margin-left: 1em;
+    font-weight: 700;
+    color: var(--branco);
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4rem;
+    transition: 2s;
+    font-family: var(--fonte-secundaria);
+
+}
+.container-texto{
+    width: 50%;
+    text-align: center;
+    padding: 2em;
+    transition: transform 2s;
+    font-weight: 500;
+    font-size: 18px;
+}
+.container-texto-paragrafo{
+    margin-bottom: 3em;
+}
+.container-img{
+    width: 60%;
+    margin-left: 7em;
+    transition: transform 1s;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+.container:hover .container-img{
+    transform: translateX(-140%);
+}
+.container:hover .container-texto{
+    transform: translateX(105%);
+}  
+.container:hover{
+    background-color: var(--azulzin) ;
+}
+
+
+.baby:hover{
+    background-color: var(--dourado);
+}
+
+.cravos:hover{
+    background-color: var(--verdin) ;
+}
+
+.antonella:hover{
+    background-color: var(--rosinha) ;
+}
+
+
+.fé:hover{
+    background-color: var(--escurin);
+}
+
+.bonus:hover{
+    background-color: var(--paixao) ;
+}
+.rodape{
+    background-color: var(--preto);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding: 1em;
+}
+
+.container:hover .bb-img {
+    transform: translateX(-110%);
+}
+
+.container:hover .bb-texto {
+    transform: translateX(130%);
+}  
+
+

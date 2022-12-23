@@ -1,2 +1,2 @@
 # about-us
-um pedido de namoro
+uma pagina simples de pedido de namoro em HTML, CSS e JavaScript;
